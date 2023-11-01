@@ -5,8 +5,8 @@ import people.Person;
 public class Teacher extends Person{
     private int salary;
 
-    public Teacher(String name, String address, int salary) {
-        super(name, address);
+    public Teacher(String name, int age, String country, String address, int salary) {
+        super(name, age, country, address);
         this.salary = salary;
     }
 
