@@ -8,7 +8,9 @@ public class Person {
         this.name = name;
         this.address = address;
     }
-
+    public String getName(){
+        return this.name;
+    }
     @Override
     public String toString() {
         return "Name: " + name + "\nAddress: " + address;
