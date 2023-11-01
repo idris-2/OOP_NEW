@@ -1,12 +1,12 @@
 import java.util.ArrayList;
 import java.util.List;
 
-import Shapes.Circle;
-import Shapes.Rectangle;
+//import Shapes.Circle;
+//import Shapes.Rectangle;
 import people.Person;
 import school.Student;
 import school.Teacher;
-import Shapes.enums.FillType;
+//import Shapes.enums.FillType;
 
 public class MainProgram {
     /*
