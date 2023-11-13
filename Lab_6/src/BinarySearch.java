@@ -9,10 +9,10 @@ class BinarySearch {
             // Check value in the middle
             if (array[mid] == value) {return true;}
 
-            // If the value is greater, ignore the left half
+            // Ignore the left half
             if (array[mid] < value) {left = mid + 1;}
 
-            // If the value is smaller, ignore the right half
+            // Ignore the right half
             else {right = mid - 1;}
         }
         // value not present

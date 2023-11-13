@@ -10,5 +10,18 @@ public class Main {
 
         System.out.println(result);
         reader.close();
+
+        printElegantly(lol);
+    }
+
+    public static void printElegantly(int[] array){     // 6. print array elegantly
+        String lmao = "";
+        for(int i = 0; i <= array.length - 1; i++){
+            if(i == 0){lmao = lmao + array[i];}
+            else{
+            lmao = lmao + "," + " " + array[i];
+            }
+        }
+        System.out.println(lmao);
     }
 }
