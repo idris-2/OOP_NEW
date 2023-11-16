@@ -1,7 +1,19 @@
 import java.util.Scanner;
 
+import Library_folder.Book;
+import Stars.NightSky;
+
 public class Main {
     public static void main(String[] args) {
+        //NightSky test = new NightSky(0.2, 10, 4);
+        //test.print();
+        //System.out.println("\n" + test.starsInLastPrint());
+
+        Book pear = new Book("No mans land", "Some guy", 2004);
+        System.out.println(pear.toString());
+
+
+        /*
         int[] lol = {-1, 2, 4, 6, 8, 9, 23, 56};
         Scanner reader = new Scanner(System.in);
         System.out.println("Enter number to find: ");
@@ -12,6 +24,7 @@ public class Main {
         reader.close();
 
         printElegantly(lol);
+        */
     }
 
     public static void printElegantly(int[] array){     // 6. print array elegantly
