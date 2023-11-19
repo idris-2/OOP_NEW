@@ -5,6 +5,7 @@
         "Lab_4\\src",
         "Lab_5\\src",
         "Lab_6\\src",
-        "practice\\src"
+        "practice\\src",
+        "mysql-connector-j\\src"
     ]
 }
