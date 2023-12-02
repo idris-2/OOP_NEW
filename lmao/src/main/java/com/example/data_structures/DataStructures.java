@@ -20,12 +20,12 @@ public class DataStructures {
         );
     }
 
-    // TODO create a method to get all objects
+    // Create a method to get all objects
     public List<TaskItem> getAllObjects() {
         return this.tasks;
     }
 
-    // TODO create a method getByStatus that will accept a Status parameter and filter the tasks with the provided status
+    // Create a method getByStatus that will accept a Status parameter and filter the tasks with the provided status
     public List<TaskItem> getByStatus(Status status) {
         return tasks.
              stream().
@@ -33,7 +33,7 @@ public class DataStructures {
              collect(Collectors.toList());
     }
 
-    // TODO create a method to find tasks whose id parameter greater than or equal to 2
+    // Create a method to find tasks whose id parameter greater than or equal to 2
     public List<TaskItem> taskIdGreaterOrEqualThanTwo() {
         return tasks.
                 stream().
@@ -41,7 +41,7 @@ public class DataStructures {
                 collect(Collectors.toList());
     }
 
-    // TODO create a method that will, by using the forEach stream method, print to the console the description of each task
+    // Create a method that will, by using the forEach stream method, print to the console the description of each task
     public void printTaskDescription() {
         tasks.stream().
                 forEach(taskItem -> {

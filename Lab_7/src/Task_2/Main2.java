@@ -66,7 +66,7 @@ class LibraryCatalog {
 
 public class Main2 {
     public static void main(String[] args) {
-        // Instantiate the LibraryCatalog and add several books
+        // Testing
         List<Book> bookList = List.of(
                 new Book("The Catcher in the Rye", "J.D. Salinger", 1951, true),
                 new Book("To Kill a Mockingbird", "Harper Lee", 1960, false),
@@ -76,11 +76,11 @@ public class Main2 {
 
         LibraryCatalog libraryCatalog = new LibraryCatalog(bookList);
 
-        // Test the methods
         System.out.println("Is '1984' available? " + libraryCatalog.isBookAvailable("1984").orElse(false));
 
         Optional<Book> firstAvailableBookByAuthor = libraryCatalog.getFirstAvailableBookByAuthor("J.D. Salinger");
         System.out.println("First available book by J.D. Salinger: " + firstAvailableBookByAuthor.orElse(null));
+        
 
         System.out.println("Updating availability of 'To Kill a Mockingbird' to true...");
         libraryCatalog.updateAvailability("To Kill a Mockingbird", true);
