@@ -2,6 +2,20 @@ package Task_3;
 import java.util.List;
 import java.util.stream.Collectors;
 
+/*
+Create a record named Employee with the following attributes: id (int), name (String), salary (double).
+Then create a class named EmployeeManagementSystem with the following methods:
+- FilterEmployeesBySalary: Accepts a list of employees and a minimum salary, and returns a new list containing only the employees with a 
+salary greater than or equal to the specified minimum.
+- CalculateTotalSalary: Accepts a list of employees and calculates the total salary of all employees.
+- DisplayEmployeeDetails: Accepts a list of employees and prints the details of each employee.
+
+In the main method instantiate the EmployeeManagementSystem and create a list of employees and perform the following operations:
+- Use the filterEmployeesBySalary method to filter employees with a minimum salary.
+- Use the calculateTotalSalary method to calculate the total salary of all employees.
+- Use the displayEmployeeDetails method to print the details of each employee.
+*/
+
 record Employee(int id, String name, double salary) {}
 
 class EmployeeManagementSystem {

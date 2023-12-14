@@ -9,8 +9,12 @@ public class Main {
         //test.print();
         //System.out.println("\n" + test.starsInLastPrint());
 
-        Book pear = new Book("No mans land", "Some guy", 2004);
-        System.out.println(pear.toString());
+        Book cheese = new Book("Cheese Problems Solved", "Woodhead Publishing", 2007);
+        System.out.println(cheese.title());
+        System.out.println(cheese.publisher());
+        System.out.println(cheese.year());
+
+        System.out.println(cheese);
 
 
         /*
