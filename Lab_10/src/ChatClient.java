@@ -3,7 +3,6 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
-import java.util.Scanner;
 
 class ChatClient {
     public static void main(String[] args) {
@@ -42,7 +41,8 @@ class ChatClient {
             while ((input = consoleReader.readLine()) != null) {
                 writer.println(input);
             }
-
+            
+            socket.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
