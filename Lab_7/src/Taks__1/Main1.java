@@ -1,4 +1,4 @@
-package Taks_1;
+package Taks__1;
 
 /*
 Create a simple logging system that allows different components of a system to log messages. Implement this system using both 

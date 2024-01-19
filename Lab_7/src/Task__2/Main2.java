@@ -1,7 +1,9 @@
-package Task_2;
+package Task__2;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+
+import Task__2.Book;
 /*
 Create a library catalog system that manages information about books. Implement this system using records, optionals, and streams. 
 The goal is to handle scenarios where a book may or may not be available in the library. 
